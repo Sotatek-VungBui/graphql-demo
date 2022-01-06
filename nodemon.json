@@ -1,0 +1,10 @@
+{
+    "watch": [
+      "src"
+    ],
+    "ext": "ts, html, json, gql, graphql",
+    "ignore": [
+      "src/public"
+    ],
+    "exec": "ts-node -r tsconfig-paths/register ./src/app.ts"
+  }
